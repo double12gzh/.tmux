@@ -100,7 +100,7 @@ Troubleshooting
 Features
 --------
 
- - `C-a` acts as secondary prefix, while keeping default `C-b` prefix
+ - `M-`` (即 alt + ` 作为 prefix)acts as secondary prefix, while keeping default `C-b` prefix
  - visual theme inspired by [Powerline][]
  - [maximize any pane to a new window with `<prefix> +`][maximize-pane]
  - SSH/Mosh aware username and hostname status line information
