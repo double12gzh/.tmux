@@ -97,6 +97,15 @@ Troubleshooting
 [1681]: https://github.com/Microsoft/BashOnWindows/issues/1681
 [wsltty]: https://github.com/mintty/wsltty
 
+  - **undersocre is added when tmux setup**
+
+    - tmux new -S ttt
+    - echo $TERM, should be `tmux-256color`, otherwise, install it
+
+    ```bash
+    $ curl -LO https://invisible-island.net/datafiles/current/terminfo.src.gz && gunzip terminfo.src.gz
+    $ sudo /usr/bin/tic -xe tmux-256color terminfo.src
+    ``` 
 Features
 --------
 
@@ -368,14 +377,3 @@ font.
 ![regedit](https://cloud.githubusercontent.com/assets/553208/19741304/71a2f3ae-9bc0-11e6-96aa-4c09a812c313.png)
 
 [font linking]: https://msdn.microsoft.com/en-us/goglobal/bb688134.aspx
-
-## Others
-### 1. undersocre is added when tmux setup
-solution: 
-- tmux new -S ttt
-- echo $TERM, should be `tmux-256color`, otherwise, install it
-
-```bash
-$ curl -LO https://invisible-island.net/datafiles/current/terminfo.src.gz && gunzip terminfo.src.gz
-$ sudo /usr/bin/tic -xe tmux-256color terminfo.src
-```
