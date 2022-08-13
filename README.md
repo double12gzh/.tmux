@@ -197,7 +197,7 @@ Additionally, `copy-mode-vi` matches [my own Vim configuration][]
 Bindings for `copy-mode-vi`:
 
 - `v` begins selection / visual mode
-- `C-v` toggles between blockwise visual mode and visual mode
+- `<prefix> v-Space` toggles between blockwise visual mode and visual mode
 - `H` jumps to the start of line
 - `L` jumps to the end of line
 - `y` copies the selection to the top paste-buffer
