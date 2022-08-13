@@ -353,6 +353,7 @@ set -gu prefix2
 unbind C-a
 unbind C-b
 
+# alt+M
 set -g prefix 'M-`'
 bind 'M-`' send-prefix
 
