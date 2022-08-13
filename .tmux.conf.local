@@ -361,6 +361,8 @@ bind 'M-`' send-prefix
 # move status line to top
 #set -g status-position top
 
+# setup vi mode. when in copy mode(i.e.: prefix + [), can use like vi
+set-window-option -g mode-keys vi
 
 # -- tpm -----------------------------------------------------------------------
 
