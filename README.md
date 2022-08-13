@@ -203,6 +203,8 @@ Bindings for `copy-mode-vi`:
 - `y` copies the selection to the top paste-buffer
 - `Escape` cancels the current operation
 
+find all keys: `:list-keys -t vi-copy`
+
 Configuration
 -------------
 
