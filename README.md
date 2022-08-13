@@ -109,7 +109,7 @@ Troubleshooting
 Features
 --------
 
- - `M-`` (即 alt + ` 作为 prefix)acts as secondary prefix, while keeping default `C-b` prefix
+ - `M-`` (即` alt + ` 作为 prefix)acts as secondary prefix
  - visual theme inspired by [Powerline][]
  - [maximize any pane to a new window with `<prefix> +`][maximize-pane]
  - SSH/Mosh aware username and hostname status line information
@@ -154,9 +154,9 @@ tmux may be controlled from an attached client by using a key combination of a
 prefix key, followed by a command key. This configuration uses `C-a` as a
 secondary prefix while keeping `C-b` as the default prefix. In the following
 list of key bindings:
-  - `<prefix>` means you have to either hit <kbd>Ctrl</kbd> + <kbd>a</kbd> or <kbd>Ctrl</kbd> + <kbd>b</kbd>
-  - `<prefix> c` means you have to hit <kbd>Ctrl</kbd> + <kbd>a</kbd> or <kbd>Ctrl</kbd> + <kbd>b</kbd> followed by <kbd>c</kbd>
-  - `<prefix> C-c` means you have to hit <kbd>Ctrl</kbd> + <kbd>a</kbd> or <kbd>Ctrl</kbd> + <kbd>b</kbd> followed by <kbd>Ctrl</kbd> + <kbd>c</kbd>
+  - `<prefix>` means you have to either hit <kbd>Alt</kbd> + <kbd>`</kbd>
+  - `<prefix> c` means you have to hit <kbd>Alt</kbd> + <kbd>`</kbd> followed by <kbd>c</kbd>
+  - `<prefix> C-c` means you have to hit <kbd>Alt</kbd> + <kbd>`</kbd> followed by <kbd>Ctrl</kbd> + <kbd>c</kbd>
 
 This configuration uses the following bindings:
 
@@ -203,7 +203,7 @@ Bindings for `copy-mode-vi`:
 - `y` copies the selection to the top paste-buffer
 - `Escape` cancels the current operation
 
-find all keys: `:list-keys -t vi-copy`
+find all keys: `:list-keys -t vi-copy` or `<prefix>-?` for help
 
 Configuration
 -------------
