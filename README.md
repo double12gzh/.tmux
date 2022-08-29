@@ -189,6 +189,8 @@ This configuration uses the following bindings:
  - `<prefix> b` lists the paste-buffers
  - `<prefix> p` pastes from the top paste-buffer
  - `<prefix> P` lets you choose the paste-buffer to paste from
+ - `<prefix> (` switch to previous sessions
+ - `<prefix> )` switch to next sessions
 
 Additionally, `copy-mode-vi` matches [my own Vim configuration][]
 
