@@ -192,7 +192,7 @@ This configuration uses the following bindings:
  - `<prefix> (` switch to previous sessions
  - `<prefix> )` switch to next sessions
  - `<prefix> ]` copy-mode
- - `<prefix> ]` + `<prefix> v`+ Space copy to clipboard
+ - `<prefix> ]` + `<prefix> v`+ `Space` copy to clipboard
 
 Additionally, `copy-mode-vi` matches [my own Vim configuration][]
 
