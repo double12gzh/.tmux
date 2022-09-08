@@ -204,7 +204,7 @@ Bindings for `copy-mode-vi`:
 - `<prefix> v-Space` toggles between blockwise visual mode and visual mode
 - `H` jumps to the start of line
 - `L` jumps to the end of line
-- `y` copies the selection to the top paste-buffer
+- `y` copies the selection to the top paste-buffer, or press Enter to copy all to buffer
 - `Escape` cancels the current operation
 
 find all keys: `:list-keys -t vi-copy` or `<prefix>-?` for help
