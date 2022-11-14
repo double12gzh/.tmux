@@ -193,8 +193,8 @@ This configuration uses the following bindings:
  - `<prefix> )` switch to next sessions
  - `<prefix> [` copy-mode-vi
  - `<prefix> [` + `<prefix> v`+ `Space` copy to clipboard (before cp, be sure enter mounse mode)
- - `<prefix> l` switch to left windows
- - `<prefix> h` switch to right windows
+ - `<prefix> l` switch to left windows (Note: prefix and l should be pressed at the same time)
+ - `<prefix> h` switch to right windows (Note: prefix and h should be pressed at the same time)
 
 Additionally, `copy-mode-vi` matches [my own Vim configuration][]
 
