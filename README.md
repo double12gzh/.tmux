@@ -178,6 +178,8 @@ This configuration uses the following bindings:
    panes ala Vim
  - `<prefix> H`, `<prefix> J`, `<prefix> K`, `<prefix> L` let you resize panes
  - `<prefix> <` and `<prefix> >` let you swap panes
+ - `Shift + left arrorw` let you swap windows
+ - `Shift + right arrow` let you swap windows
  - `<prefix> +` maximizes the current pane to a new window
 
  - `<prefix> m` toggles mouse mode on or off
