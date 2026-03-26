@@ -350,7 +350,7 @@ bind l select-pane -R                   # l 向右移动光标
 #}}
 
 # stay in copy-mode after mouse selection instead of jumping to bottom
-bind -T copy-mode-vi MouseDragEnd1Pane send -X copy-pipe 'pbcopy'
+# bind -T copy-mode-vi MouseDragEnd1Pane send -X copy-pipe 'pbcopy'
 
 # -- clipboard -----------------------------------------------------------------
 
@@ -441,6 +441,9 @@ tmux_conf_uninstall_plugins_on_reload=true
 # enable HOME/END to begin/end of the line
 bind-key -n Home send Escape "OH"
 bind-key -n End send Escape "OF"
+
+# swap window position (default '.' uses move-window which fails on occupied index)
+bind . command-prompt -p "swap with window:" "swap-window -t '%%'"
 
 # -- custom variables ----------------------------------------------------------
 
