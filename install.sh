@@ -62,7 +62,7 @@ install() {
   printf '✅ Using %s\n' "${TMUX_CONF_LOCAL/#"$HOME"/$tilde}" >&2
 
   printf '\n' >&2
-  OH_MY_TMUX_REPOSITORY=${OH_MY_TMUX_REPOSITORY:-https://github.com/gpakosz/.tmux.git}
+  OH_MY_TMUX_REPOSITORY=${OH_MY_TMUX_REPOSITORY:-https://github.com/double12gzh/.tmux.git}
   printf '⬇️ Cloning Oh my tmux! repository...\n' >&2
   if ! is_true "$DRY_RUN"; then
     mkdir -p "$(dirname "$OH_MY_TMUX_CLONE_PATH")"
